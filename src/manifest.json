@@ -2,8 +2,8 @@
   "$schema": "../node_modules/chrome-extension-manifest-json-schema/manifest/manifest.schema.v3.json",
   "manifest_version": 3,
   "author": "ZackSte",
-  "name": "Make Bing Redirects Transparent",
-  "description": "This extension makes Bing redirects more transparent by exposing the real URL in the tooltip.",
+  "name": "Make bing.com Redirects Transparent",
+  "description": "Make bing.com search results transparent by setting the alt text to the original search result url.",
   "version": "0.0.0.1",
   "icons": {
     "16": "resources/16x16logo.png",
