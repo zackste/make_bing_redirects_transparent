@@ -17,7 +17,7 @@ function decodeLink(element: HTMLAnchorElement): string | null {
   if (!u) {
     return null;
   }
-  // The url seems to start with a couple invalid characters, so we trim them off. The first two characters are always "a1", but the next two characters can vary. So we just trim off the first two characters.
+  // The url seems to start with a couple invalid characters, so we trim them off.
   let cleanedUpUrl = u.substring(2);
   let modulus = cleanedUpUrl.length % 4;
   if (modulus > 0) {
