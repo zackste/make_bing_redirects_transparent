@@ -1,5 +1,5 @@
 {
-  "description": "Make bing search results transparent by setting the alt text to the original search result url.",
+  "description": "Make bing.com search results transparent by setting the alt text to the original search result url.",
   "license": "MIT",
   "scripts": {
     "build_typescript": "tsc --build",

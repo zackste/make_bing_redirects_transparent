@@ -1,5 +1,6 @@
 bin
 src/**/*.psd
+*.orig
 
 # macOS/Windows system files
 .DS_Store
