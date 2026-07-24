@@ -1,3 +1,10 @@
+bin
+src/**/*.psd
+
+# macOS/Windows system files
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log

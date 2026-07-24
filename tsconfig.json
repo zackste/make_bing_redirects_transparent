@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "bin",
+    "jsx": "react",
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "chrome"
+    ],
+    "removeComments": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Make bing search results transparent by setting the alt text to the original search result url.",
+  "license": "MIT",
+  "scripts": {
+    "build_typescript": "tsc --build",
+    "build_copy": "copyfiles -u 1 src/manifest.json src/resources/* bin",
+    "build": "npm run build_typescript && npm run build_copy",
+    "clean": "tsc --build --clean && rm -r bin/*",
+    "watch": "tsc --build --watch"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.202",
+    "chrome-extension-manifest-json-schema": "^0.2.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}
