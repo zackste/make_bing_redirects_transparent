@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "recursive-install": "^1.4.0"
+  }
+}
